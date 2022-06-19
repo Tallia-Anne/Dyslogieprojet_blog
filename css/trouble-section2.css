@@ -1,0 +1,1051 @@
+@media screen and (min-width: 1280px) {
+
+
+/*************************************************************************************
+
+                Section Trouble
+
+***********************************************************************/
+/** l'apparence du texte  **/
+.text {
+    width: 100%;
+    padding: 46px 17px;
+    height: 243px;
+    line-height: 28px;
+    background-color: #821d54;
+    color: white;
+}
+/* positionnement du section parent */
+.section-trouble {
+display: grid;
+grid-template-columns: 2fr 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble .box h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble .box:nth-child(1) {
+background-color: #91406d;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble .box:nth-child(2) {
+
+background-image: url("/img/[GetPaidStock.com]-6254300de0306.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+/******************************************section-trouble2*******************************************************************************************************************/
+.section-trouble2 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 430px;
+}
+
+.section-trouble2 .box2 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+
+.section-trouble2 .box2:nth-child(2) {
+background-color: #8d0e54;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble2 .box2:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-61f1979ad4be4.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble3*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble3 {
+display: grid;
+grid-template-columns: 1fr 2fr;
+height: 786px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble3 .box3 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble3 .box3:nth-child(1) {
+background-color: #ea76b6;
+color: white;
+padding: 22px 22px;
+
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble3 .box3:nth-child(2) {
+
+background-image: url("/img/pexels-ksenia-chernaya-7301119.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+/******************************************section-trouble4*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble4 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 570px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble4 .box4 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble4 .box4:nth-child(2) {
+background-color: #f093c6;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble4 .box4:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-62542fb23effe.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble5*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble5 {
+display: grid;
+grid-template-columns: 2fr 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble5 .box5 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble5 .box5:nth-child(1) {
+background-color: #f7a6d3;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble5 .box5:nth-child(2) {
+
+background-image: url("/img/imagetrouble2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+
+.section-trouble6 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 430px;
+}
+
+.section-trouble6 .box6 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+
+}
+
+.section-trouble6 .box6:nth-child(2) {
+background-color: #e3a1e9;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble6 .box6:nth-child(1) {
+
+background-image: url("/img/imagetrouble.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+
+/*************************************************************************************
+
+                Section Trouble
+
+***********************************************************************/
+/** l'apparence du texte  **/
+.text {
+    width: 100%;
+    padding: 46px 17px;
+    height: 243px;
+    line-height: 28px;
+    background-color: #821d54;
+    color: white;
+}
+/* positionnement du section parent */
+.section-trouble {
+display: grid;
+grid-template-columns: 2fr 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble .box h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble .box:nth-child(1) {
+background-color: #91406d;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble .box:nth-child(2) {
+
+background-image: url("/img/[GetPaidStock.com]-6254300de0306.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+/******************************************section-trouble2*******************************************************************************************************************/
+.section-trouble2 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 430px;
+}
+
+.section-trouble2 .box2 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+
+.section-trouble2 .box2:nth-child(2) {
+background-color: #8d0e54;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble2 .box2:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-61f1979ad4be4.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble3*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble3 {
+display: grid;
+grid-template-columns: 1fr 2fr;
+height: 786px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble3 .box3 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble3 .box3:nth-child(1) {
+background-color: #ea76b6;
+color: white;
+padding: 22px 22px;
+
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble3 .box3:nth-child(2) {
+
+background-image: url("/img/pexels-ksenia-chernaya-7301119.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+/******************************************section-trouble4*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble4 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 570px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble4 .box4 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble4 .box4:nth-child(2) {
+background-color: #f093c6;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble4 .box4:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-62542fb23effe.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble5*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble5 {
+display: grid;
+grid-template-columns: 2fr 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble5 .box5 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble5 .box5:nth-child(1) {
+background-color: #f7a6d3;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble5 .box5:nth-child(2) {
+
+background-image: url("/img/imagetrouble2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+
+.section-trouble6 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 430px;
+}
+
+.section-trouble6 .box6 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+
+}
+
+.section-trouble6 .box6:nth-child(2) {
+background-color: #e3a1e9;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble6 .box6:nth-child(1) {
+
+background-image: url("/img/imagetrouble.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+/*************************************************************************************
+
+                Section Trouble
+
+***********************************************************************/
+/** l'apparence du texte  **/
+.text {
+    width: 100%;
+    padding: 46px 17px;
+    height: 243px;
+    line-height: 28px;
+    background-color: #821d54;
+    color: white;
+}
+/* positionnement du section parent */
+.section-trouble {
+display: grid;
+grid-template-columns: 2fr 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble .box h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble .box:nth-child(1) {
+background-color: #91406d;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble .box:nth-child(2) {
+
+background-image: url("/img/[GetPaidStock.com]-6254300de0306.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+/******************************************section-trouble2*******************************************************************************************************************/
+.section-trouble2 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 430px;
+}
+
+.section-trouble2 .box2 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+
+.section-trouble2 .box2:nth-child(2) {
+background-color: #8d0e54;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble2 .box2:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-61f1979ad4be4.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble3*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble3 {
+display: grid;
+grid-template-columns: 1fr 2fr;
+height: 786px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble3 .box3 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble3 .box3:nth-child(1) {
+background-color: #ea76b6;
+color: white;
+padding: 22px 22px;
+
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble3 .box3:nth-child(2) {
+
+background-image: url("/img/pexels-ksenia-chernaya-7301119.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+/******************************************section-trouble4*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble4 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 570px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble4 .box4 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble4 .box4:nth-child(2) {
+background-color: #f093c6;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble4 .box4:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-62542fb23effe.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble5*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble5 {
+display: grid;
+grid-template-columns: 2fr 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble5 .box5 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble5 .box5:nth-child(1) {
+background-color: #f7a6d3;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble5 .box5:nth-child(2) {
+
+background-image: url("/img/imagetrouble2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+
+.section-trouble6 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 430px;
+}
+
+.section-trouble6 .box6 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+
+}
+
+.section-trouble6 .box6:nth-child(2) {
+background-color: #e3a1e9;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble6 .box6:nth-child(1) {
+
+background-image: url("/img/imagetrouble.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.9px) {
+
+
+/*************************************************************************************
+
+                Section Trouble
+
+***********************************************************************/
+/** l'apparence du texte  **/
+.text {
+    width: 100%;
+    padding: 46px 17px;
+    height: 243px;
+    line-height: 28px;
+    background-color: #821d54;
+    color: white;
+}
+/* positionnement du section parent */
+.section-trouble {
+display: grid;
+grid-template-columns: 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble .box h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble .box:nth-child(1) {
+background-color: #91406d;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble .box:nth-child(2) {
+
+background-image: url("/img/[GetPaidStock.com]-6254300de0306.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+/******************************************section-trouble2*******************************************************************************************************************/
+.section-trouble2 {
+display: grid;
+grid-template-columns: 1fr ;
+height: 430px;
+}
+
+.section-trouble2 .box2 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+
+.section-trouble2 .box2:nth-child(2) {
+background-color: #8d0e54;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble2 .box2:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-61f1979ad4be4.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble3*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble3 {
+display: grid;
+grid-template-columns: 1fr ;
+height: 786px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble3 .box3 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble3 .box3:nth-child(1) {
+background-color: #ea76b6;
+color: white;
+padding: 22px 22px;
+
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble3 .box3:nth-child(2) {
+
+background-image: url("/img/pexels-ksenia-chernaya-7301119.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+/******************************************section-trouble4*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble4 {
+display: grid;
+grid-template-columns: 1fr ;
+height: 570px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble4 .box4 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble4 .box4:nth-child(2) {
+background-color: #f093c6;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble4 .box4:nth-child(1) {
+
+background-image: url("/img/[GetPaidStock.com]-62542fb23effe.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/******************************************section-trouble5*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble5 {
+display: grid;
+grid-template-columns: 1fr;
+height: 370px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble5 .box5 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble5 .box5:nth-child(1) {
+background-color: #f7a6d3;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble5 .box5:nth-child(2) {
+
+background-image: url("/img/imagetrouble2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+
+.section-trouble6 {
+display: grid;
+grid-template-columns: 1fr;
+height: 430px;
+}
+
+.section-trouble6 .box6 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+
+}
+
+.section-trouble6 .box6:nth-child(2) {
+background-color: #e3a1e9;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble6 .box6:nth-child(1) {
+
+background-image: url("/img/imagetrouble.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+
+
+/*************************************************************************************
+
+                Section Trouble
+
+***********************************************************************/
+/** l'apparence du texte  **/
+.text {
+    width: 100%;
+    padding: 46px 17px;
+    height: 698px;
+    line-height: 28px;
+    background-color: #821d54;
+    color: white;
+}
+/* positionnement du section parent */
+.section-trouble {
+display: grid;
+grid-template-columns: 1fr;
+height: 100%;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble .box h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble .box:nth-child(1) {
+background-color: #91406d;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble .box:nth-child(2) {
+
+display: none;
+
+}
+/******************************************section-trouble2*******************************************************************************************************************/
+.section-trouble2 {
+display: grid;
+grid-template-columns: 1fr ;
+height: 639px;
+}
+
+.section-trouble2 .box2 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+
+.section-trouble2 .box2:nth-child(2) {
+background-color: #8d0e54;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble2 .box2:nth-child(1) {
+
+display: none;
+
+}
+
+
+/******************************************section-trouble3*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble3 {
+display: grid;
+grid-template-columns: 1fr ;
+ height: 986px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble3 .box3 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble3 .box3:nth-child(1) {
+background-color: #ea76b6;
+color: white;
+padding: 22px 22px;
+
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble3 .box3:nth-child(2) {
+
+display: none;
+
+}
+
+
+
+/******************************************section-trouble4*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble4 {
+display: grid;
+grid-template-columns: 1fr ;
+height: 1070px;
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble4 .box4 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble4 .box4:nth-child(2) {
+background-color: #f093c6;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble4 .box4:nth-child(1) {
+
+display: none;
+
+}
+
+
+/******************************************section-trouble5*******************************************************************************************************************/
+
+/*************************************************************************************************************************************************************/
+
+
+/* positionnement du section parent */
+.section-trouble5 {
+display: grid;
+grid-template-columns: 1fr;
+height: 650px
+}
+/** le titre de la section enfant (box)  **/
+.section-trouble5 .box5 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+}
+/* l'apparence de l'enfant n1 */
+.section-trouble5 .box5:nth-child(1) {
+background-color: #f7a6d3;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+/* l'apparence de l'enfant n2 */
+.section-trouble5 .box5:nth-child(2) {
+
+display: none;
+
+}
+
+
+
+
+
+.section-trouble6 {
+display: grid;
+grid-template-columns: 1fr;
+    height: 639px;
+}
+
+.section-trouble6 .box6 h4 {
+text-align: center;
+padding: 22px 22px;
+text-transform: uppercase;
+
+}
+
+.section-trouble6 .box6:nth-child(2) {
+background-color: #e3a1e9;
+color: white;
+padding: 22px 22px;
+line-height: 28px;
+}
+
+.section-trouble6 .box6:nth-child(1) {
+
+display: none;
+
+}
+}

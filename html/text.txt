@@ -1,0 +1,63 @@
+<section id="blog-container">
+<div class="blogs">
+<div class="post">
+<img src="../img/[GetPaidStock.com]-61ebf032de117.jpg" alt="">
+<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium illum ullam quas!</h3>
+ 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corporis molestiae nulla ratione nesciunt beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corporis molestiae nulla ratione nesciunt beatae.  </p>
+<a href="#">savoir en plus</a>
+
+</div>
+
+<div class="post">
+<img src="../img/[GetPaidStock.com]-61ebf032de117.jpg" alt="">
+<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium illum ullam quas!</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corporis molestiae nulla ratione nesciunt beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corporis molestiae nulla ratione nesciunt beatae.  </p>
+<a href="#">savoir en plus</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="cate">
+
+<!------------ container qui va contenir tous les 3ongles  ------------>
+    <div class="tabs">
+      <!------------ Les ongles  ------------>
+      <div class="tab">
+        <input type="radio" name="onglet" id="tab1" checked    />
+        <label for="tab1">TAB1</label>
+        <div class="contenu">
+            <p>je suis le contenue de l'ongle °1</p>
+        </div>
+      </div>
+
+
+
+      <div class="tab">
+         <input type="radio" name="onglet" id="tab2"   />
+        <label for="tab2">TAB2</label>
+        <div class="contenu">
+            <p>je suis le contenue de l'ongle °2</p>
+        </div>
+      </div>
+       
+      <div class="tab">
+         <input type="radio" name="onglet" id="tab3"    />
+         <label for="tab3">TAB3</label>
+        <div class="contenu">
+            <p>je suis le contenue de l'ongle °3</p>
+        </div>
+      </div>
+       
+      <!------------ Les ongles  ------------>
+    </div>
+    <!------------ container qui va contenir tous les 3ongles  ------------>
+
+</div>
+</section>

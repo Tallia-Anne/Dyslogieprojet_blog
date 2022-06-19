@@ -1,0 +1,54 @@
+
+.sectioncontact {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 545px;
+width: 100%;
+}
+
+.sectioncontact .contact-image img {
+height: 545px;
+width: 100%;
+}
+.contact-title {
+text-align: center;
+padding-bottom: 54px;
+} 
+.contactform {
+display: flex;
+flex-direction: column;
+padding: 12px;
+justify-content: center;
+align-content: center;
+margin: 63px;
+
+}
+
+.form-contact {
+margin-left: 120px;
+}
+
+.formcontact {
+padding-bottom: 42px;
+width: 100px;
+
+}
+
+.formcon {
+    width: 431px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+     text-decoration: none;
+    color: #f96f88;
+    border: 1px solid #f96f88;
+    padding: 10px 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formcon:focus {
+border: none;
+} 

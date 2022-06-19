@@ -1,0 +1,25 @@
+@import url(./navigation.css);
+@import url(./settings.css);
+@import url(./homepage/section-galerie.css);
+@import url(./homepage/card.css);
+@import url(./typo.css);
+@import url(./header-home.css);
+@import url(./homepage/sectionun.css);
+@import url(./sectiondeux.css);
+@import url(./parallaxe2.css);
+@import url(./homepage/sectiontrois.css);
+@import url(./homepage/gallerie-home2.css);
+@import url(./homepage/service.css);
+@import url(./homepage/section-quatre.css);
+@import url(./animation.css);
+@import url(./footer.css);
+*  {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+
+
+
+

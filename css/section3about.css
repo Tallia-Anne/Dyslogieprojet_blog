@@ -1,0 +1,84 @@
+/******************************************************************************************************************
+
+                                            dbt_Sectiontrois
+
+
+*******************************************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+
+
+#sectiontrois {
+min-height: 520px;
+ background-image: url('../img/aboutimg.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+ #sectiontrois .paralla {
+   background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+    width: 50%;
+    height: 320px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#sectiontrois .paralla h3 {
+    font-family: 'Gilda Display', serif;
+   font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 32px;
+}
+
+#sectiontrois .paralla .liste {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#sectiontrois .paralla .liste li {
+padding-bottom: 12px;
+
+
+}
+#sectiontrois .paralla .liste li:hover {
+color: pink;
+}
+.fa-solid {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3px 4px;
+}
+
+.fa-solid:hover {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 15px;
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 50%;
+    padding: 3px 4px;
+}
+
+/******************************************************************************************************************
+
+                                            fin_Sectiondeux
+
+
+*******************************************************************************************************************/

@@ -1,0 +1,109 @@
+.card {
+  background-color: lightcyan;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 10px;
+  width: auto;
+  color: #000;
+  box-shadow: 3px 3px 18px #a8a8a8;
+  display: inline-block;
+  overflow: hidden;
+}
+
+label.open {
+  cursor: pointer;
+  background-color: darkcyan;
+  padding: 5px 15px;
+  display: inline-block;
+  color: #fff;
+}
+
+input.modal-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 2s;
+  overflow: hidden;
+  z-index: 99;
+  width: 0;
+  height: 1px;
+  transition: width 0.5s ease 0.5s, height 0.5s ease;
+}
+
+.modal-label {
+  position: relative;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  background-color: lightpink;
+  width: 70%;
+  height: 300px;
+  max-height: 70%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px #a8a8a8;
+  padding: 20px;
+}
+
+/* --------------------------------------------------------
+                    Codage de la checkbok
+----------------------------------------------------------*/
+
+.modal-checkbox:checked ~ .modal {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: color 0.5s ease 0.5s;
+  transition: width 1s ease, height 0.5s ease 0.5s;
+}
+
+/* .modal-checkbox:checked ~ .modal-content {
+} */
+
+label.overlay {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+label.close-btn {
+  border: solid 1px red;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+label.close-btn:after,
+label.close-btn:before {
+  content: "";
+  background-color: red;
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  transform-origin: center;
+  transform: rotate(45deg);
+}
+
+label.close-btn:before {
+  transform: rotate(-45deg);
+}

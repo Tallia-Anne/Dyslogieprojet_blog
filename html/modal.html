@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MODALE</title>
+        <link rel="stylesheet" href="/css/modal.css">
+    </head>
+
+    <body>
+        <div class="card">
+            <h3>Fenêtre Modale</h3>
+
+            <label class="open modal-label" for="label-input">
+                <p>Ouvrir fenêtre</p>
+            </label>
+            <input type="checkbox" name="modal" value="open" id="label-input" class="modal-checkbox" />
+
+            <div class="modal">
+                <label class="modal-label overlay" for="label-input"></label>
+
+                <div class="modal-content boite">
+                    <div class="top">
+                        <h2>Titre de la boite modale </h2>
+                        <label class="modal-label close-btn" for="label-input"></label>
+                    </div>
+                    <p>Contenu de la boite modale à afficher</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>

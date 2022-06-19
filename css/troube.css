@@ -1,0 +1,12 @@
+@import url(./navigation.css);
+@import url(./settings.css);
+@import url(./typo.css);
+@import url(./footer.css);
+@import url(./troubleheader.css);
+@import url(/css/trouble-section2.css);
+*  {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}

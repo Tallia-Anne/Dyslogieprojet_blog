@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onglet</title>
+     <style>
+
+            .tabs {
+                position: relative;
+                border: solid 1px red;
+                min-height: 200px;
+                overflow: hidden;
+                margin: 20px 0;
+            }
+            .tab {
+                
+                float: left;
+              
+                
+            }
+            /** les noms des ongles qu'on va personnalisé **/
+            .tab label {
+                background-color: #27C1B9;
+                padding: 10px;
+                 cursor: pointer;
+                  border: solid 1px black ;
+                width: 200px;
+            }
+             .tabs > label:last-child {
+            border-right: solid 0px #000;
+        }
+
+            .tab input[type="radio" ] {
+            opacity: 0;
+            display: none;
+           
+        }   
+        .contenu {
+            position: absolute;
+            top: 30px;
+            left: 0;
+           
+            background-color: aliceblue
+            ;
+            padding: 20px;
+            overflow: hidden;
+
+        }
+        .contenu > * {
+         opacity: 0;
+        }
+
+         .tab input[type="radio"]:checked~label {
+            background-color: aqua;
+        }
+
+        .tab input[type="radio"]:checked~label~.contenu {
+            z-index: 1;
+        }
+        .tab input[type="radio"]:checked~label~.contenu>* {
+            opacity: 1;
+        }
+    </style>   
+
+ </head>
+  <body>
+    <!------------ container qui va contenir tous les 3ongles  ------------>
+    <div class="tabs">
+      <!------------ Les ongles  ------------>
+      <div class="tab">
+        <input type="radio" name="onglet" id="tab1" checked    />
+        <label for="tab1">TAB1</label>
+        <div class="contenu">
+            <p>je suis le contenue de l'ongle °1</p>
+        </div>
+      </div>
+
+
+
+      <div class="tab">
+         <input type="radio" name="onglet" id="tab2"   />
+        <label for="tab2">TAB2</label>
+        <div class="contenu">
+            <p>je suis le contenue de l'ongle °2</p>
+        </div>
+      </div>
+       
+      <div class="tab">
+         <input type="radio" name="onglet" id="tab3"    />
+         <label for="tab3">TAB3</label>
+        <div class="contenu">
+            <p>je suis le contenue de l'ongle °3</p>
+        </div>
+      </div>
+       
+      <!------------ Les ongles  ------------>
+    </div>
+    <!------------ container qui va contenir tous les 3ongles  ------------>
+  </body>
+</html>

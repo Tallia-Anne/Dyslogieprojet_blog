@@ -1,0 +1,65 @@
+.sec-services {
+
+width: 100%;
+margin: 100px auto;
+
+
+}
+
+.services {
+
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.sec-services h2 {
+text-align: center;
+padding-bottom: 112px;
+    font-size: 36px;
+    font-family: 'Gilda Display', serif;
+}
+
+.single-service {
+flex-basis: 390px;
+padding: 30px 40px;
+text-align: center;
+position: relative;
+
+}
+
+.single-service h4 {
+text-transform: capitalize;
+font-size: 22px;
+margin-bottom: 50px;
+
+}
+
+.single-service p {
+margin-bottom: 10px;
+}
+
+.single-service:before{
+    position:absolute;
+    content:"";
+    height:0;
+    left:0;
+    top:0;
+    border-left:2px solid #ff7720;
+    transition:.3s;
+}
+.single-service:after{
+    position:absolute;
+    content:"";
+    height:0;
+    right:0;
+    bottom:0;
+    border-right:2px solid #ff7720;
+    transition:.3s;
+}
+
+.single-service:hover:before, .single-service:hover:after{
+    height:50%;
+}

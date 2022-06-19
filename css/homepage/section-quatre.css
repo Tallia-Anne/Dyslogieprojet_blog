@@ -1,0 +1,56 @@
+#section-d {
+ display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+#section-d .box {
+color: white;
+padding: 158px;
+
+}
+
+#section-d .box:nth-child(1) {
+
+  background: 
+    url("/img/pexels-energepiccom-313690.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+
+
+#section-d .box:nth-child(2) {
+
+  background: 
+    url("/img/image6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#section-d .box .boxtitle {
+
+    text-align: center;
+        padding: 52px;
+    border: 4px solid #fff;
+
+}
+
+#section-d .box .boxtitle a {
+
+   text-decoration: none;
+    color: #fff;
+
+}
+@media screen and (max-width: 768px){
+  #section-d {
+ display: grid;
+grid-template-columns: 1fr ;
+
+}
+}

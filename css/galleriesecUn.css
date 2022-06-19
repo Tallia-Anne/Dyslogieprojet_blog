@@ -1,0 +1,38 @@
+.sectionUn {
+
+width: 100%;
+padding: 112px 112px;
+
+}
+
+.sectionUn .liens-parents {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.sec {
+  padding: 30px 30px;
+
+}
+
+.lien-1 {
+
+
+    border-right: 2px solid black;
+    height: 178px;
+
+
+}
+
+.lien-3 {
+
+
+    border-left: 2px solid black;
+    height: 178px;
+
+
+}
+

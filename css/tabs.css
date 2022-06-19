@@ -1,0 +1,70 @@
+.onglets {
+width: 301px;
+margin: 0 54px;
+}
+
+.tabs {
+  position: relative;
+  border: solid 0px red;
+  height: 350px;
+  /* overflow: hidden; */
+}
+
+.tab {
+  float: left;
+  border: solid 0px blue;
+  width: calc(100% / 3);
+}
+
+.tabs label {
+ background-color: #e91e63;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    margin-top: -11px;
+    margin: -13px 3px;
+}
+
+.tabs :last-child label {
+  border-right: solid 0px #000;
+}
+
+.tab input[type="radio"] {
+  opacity: 0;
+  display: none;
+}
+
+.contenu {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  border-top: solid 2px crimson;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.contenu > * {
+  opacity: 0;
+}
+
+.tabs input[type="radio"]:checked ~ label {
+  background-color: crimson;
+  color: #fff;
+}
+
+.tabs input[type="radio"]:checked ~ .contenu {
+  border-top: solid 2px crimson;
+}
+
+.tabs input[type="radio"]:checked ~ label ~ .contenu {
+  z-index: 1;
+}
+
+.tabs input[type="radio"]:checked ~ label ~ .contenu > * {
+  opacity: 1;
+}

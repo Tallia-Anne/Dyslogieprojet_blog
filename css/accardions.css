@@ -1,0 +1,54 @@
+.item-1 {
+
+background-image: url("../img/image332.jpg");
+
+}
+
+.item-2 {
+
+background-image: url("../img/about.jpg");
+
+}
+
+.item-3 {
+
+background-image: url("../img/pexels-bran-sodre-2467450.jpg");
+
+}
+
+.item-4 {
+
+background-image: url("../img/image.jpg");
+
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -81px;
+    
+}
+
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95vh;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: 0.8s ease;
+
+}
+
+.item:hover {
+    flex-grow: 2;
+}

@@ -1,0 +1,38 @@
+/******************************************************************************************************************
+
+                                            dbt_Header-trouble
+
+
+*******************************************************************************************************************/
+
+#headershow {
+min-height: 550px;
+color: #fff;
+text-align: center;
+font-family: 'Gilda Display', serif;
+width: 100%;
+}
+
+#headershow .bg-image-trouble {
+position: absolute;
+background-image: url('../img/trouble.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 550px;
+z-index: -1;
+
+}
+#headershow h1 {
+padding-top: 244px;
+padding-bottom: 0;
+text-align: center;
+}
+
+/******************************************************************************************************************
+
+                                            fin_Header-trouble
+
+
+*******************************************************************************************************************/

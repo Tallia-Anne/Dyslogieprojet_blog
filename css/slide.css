@@ -1,0 +1,114 @@
+@keyframes fond {
+  from {
+    background-color: lightseagreen;
+  }
+
+  50% {
+    background-color: hotpink;
+  }
+
+  75% {
+    font-size: 20px;
+  }
+
+  to {
+    background-color: darkseagreen;
+  }
+}
+
+/* ----------------------------------------------------------------
+    Animations avec @keyframes du scrolling sous l'image active
+-------------------------------------------------------------------*/
+@keyframes youpi {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+/* ----------------------------------------------------------------
+    Animations avec @keyframes du défilement des images
+-------------------------------------------------------------------*/
+
+/*
+KEYFRAME = point de repère
+0% = point de départ de l'animation (DEBUT)
+100% = point d'arrivée de l'animation (FIN)
+On a stipulé de prendre 5 images qui resteront figées 5 secondes
+Soit 25 secondes d'animation au total
+Nombre d'instants à définir = 100% / nombre d'images = 100% / 5 = 20 %
+Chacune des images s'affichera 20% du temps total de l'animation.
+On travaillera par tranches de 20% en temporalité.
+*/
+
+@keyframes defilement {
+  0% {
+    left: 0%; /* apparition de l'image n°1 */
+  }
+
+  20% {
+    left: -100%; /* apparition de l'image n°2 */
+  }
+
+  40% {
+    left: -200%; /* apparition de l'image n°3 */
+  }
+
+  60% {
+    left: -300%; /* apparition de l'image n°4 */
+  }
+
+  80% {
+    left: -400%; /* apparition de l'image n°5 */
+  }
+
+  100% {
+    left: 0; /* apparitionDE NOUVEAU de l'image n°1 */
+  }
+}
+
+.auto-slider {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 10px 20px;
+  padding: 0;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  border: solid 0px red;
+}
+
+#slides {
+  overflow: hidden;
+  border: solid 0px green;
+}
+
+#slides figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  border: solid 0px #3a0080;
+  animation: defilement 25s ease infinite;
+}
+
+#slides figure img {
+  width: 20%;
+  float: left;
+}
+
+/* Indicateur de défilement sous l'image */
+.scrolling {
+  width: 100%;
+  max-width: 100%;
+  height: 4px;
+  background-color: #f66308;
+  position: absolute;
+  bottom: 0;
+  animation: youpi 5s ease infinite;
+}

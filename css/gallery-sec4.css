@@ -1,0 +1,50 @@
+/******************************************************************************************************************
+
+                                            dbt_Sectiondeux
+
+
+*******************************************************************************************************************/
+
+#sectiondernier {
+min-height: 400px;
+ background-image:   url("../img/parallaxe3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+ #sectiondernier .parallaxe2 {
+    background: #ffffff78;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.rideau {
+background: #FFD6E4;
+}
+
+#sectiondernier .parallaxe2 h3 {
+    text-align: center;
+    color: #fff;
+     z-index: 1;
+}
+
+.trait {
+ background-color: pink;
+width: 59%;
+}
+
+
+
+/******************************************************************************************************************
+
+                                            fin_Sectiondeux
+
+
+*******************************************************************************************************************/

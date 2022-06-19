@@ -1,0 +1,69 @@
+/******************************************************************************************************************
+
+                                            dbt_SectionHuit
+
+
+*******************************************************************************************************************/
+
+
+
+
+
+#sectiondernier {
+min-height: 400px;
+ background-image:   url("../img/about2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+ #sectiondernier .parallaxe2 {
+    background: #ffd6e450;
+    position: relative;
+   
+    width: 100%;
+    height: 400px;
+    
+   
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.rideau {
+background: #FFD6E4;
+}
+
+#sectiondernier .parallaxe2 h3 {
+    text-align: center;
+    color: #fff;
+     z-index: 1;
+}
+
+
+#sectiondernier .parallaxe2 h3::after {
+   content: '';
+    position: absolute;
+    background-color: #ffd6e472;
+    height: 10px;
+    width: 57%;
+    left: 22%;
+    bottom: 189px;
+    z-index: -1;
+}
+
+
+.trait {
+ background-color: pink;
+width: 59%;
+}
+
+
+
+/******************************************************************************************************************
+
+                                            fin_Sectiondeux
+
+
+*******************************************************************************************************************/
