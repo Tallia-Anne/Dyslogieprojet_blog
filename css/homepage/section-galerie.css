@@ -41,6 +41,12 @@ background-color: #FFD9E7;
 
 }
 
+
+.wrap .bloc a {
+text-decoration: none;
+}
+
+
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 .wrap {
 
