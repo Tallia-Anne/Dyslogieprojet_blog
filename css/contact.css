@@ -41,7 +41,7 @@ width: 100px;
 }
 
 
-input[type="email"], input[type="user"] {
+.form-contact  input[type="email"], input[type="user"] {
      width: 431px;
     border: none;
     border-bottom: 2px solid black;
