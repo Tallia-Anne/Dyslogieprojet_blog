@@ -2,12 +2,12 @@
 .sectioncontact {
 display: grid;
 grid-template-columns: 1fr 1fr;
-height: 545px;
+height: 645px;
 width: 100%;
 }
 
 .sectioncontact .contact-image img {
-height: 545px;
+height: 645px;
 width: 100%;
 }
 .contact-title {
@@ -40,13 +40,29 @@ width: 100px;
     border-bottom: 2px solid black;
 }
 
-button {
-     text-decoration: none;
+
+input[type="email"], input[type="user"] {
+     width: 431px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+
+.btn_contact {
+    text-decoration: none;
     color: #f96f88;
     border: 1px solid #f96f88;
-    padding: 10px 10px;
+    padding: 12px 12px;
     width: 80%;
     margin: 0 auto;
+}
+
+.btn_contact {
+        text-decoration: none;
+        color: #fff;
+        background-color: #f96f88;
+    border: 1px solid #f96f88;
+    padding: 12px 12px;
 }
 
 .formcon:focus {
